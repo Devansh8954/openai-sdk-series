@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import { Agent, run, tool } from '@openai/agents';
 import { z } from 'zod';
 import axios from 'axios';
